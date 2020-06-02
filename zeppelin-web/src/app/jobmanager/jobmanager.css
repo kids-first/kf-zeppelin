@@ -12,6 +12,23 @@
  * limitations under the License.
  */
 
+  /* ------------------------------------------- */
+  /* Vars
+/* ------------------------------------------- */
+  :root {
+    --color-text: #515885;
+    --color-text-secondary: #7d84a6;
+    --color-text-disabled: #a9adc0;
+    --color-text-title: #2B388F;
+    --color-link: #A6278F;
+    --color-link-hover: #B5469E;
+    --color-layout-body-background: #f4f5f8;
+    --color-item-disabled: var(--color-text-disabled);
+    --color-border: #ced2e4;
+    --color-primary: #009BBA;
+    --color-primary-hover: #20B1C7;
+  }
+
 .job-col {
   margin: 0;
   padding: 0;
@@ -65,7 +82,7 @@
 }
 
 .job-search-tool .dropdown-text-desc {
-  color: gray;
+  color: var(--color-text-secondary);
   font-weight: 400;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

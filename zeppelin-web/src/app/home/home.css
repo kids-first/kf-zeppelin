@@ -25,6 +25,8 @@
    --color-layout-body-background: #f4f5f8;
    --color-item-disabled: var(--color-text-disabled);
    --color-border: #ced2e4;
+   --color-primary: #009BBA;
+   --color-primary-hover: #20B1C7;
  }
 
 body {
@@ -273,7 +275,7 @@ body .navbar {
 }
 
 .nav-btn {
-  color: #fff;
+  color: var(--color-link);
   background-color: transparent;
   border-color: transparent;
   font-size: 14px;
@@ -367,6 +369,23 @@ kbd {
   color: #000;
   border: 1px solid #cfcfcf;
   border-radius: 2px;
+}
+
+/* ------------------------------------------- */
+/* Button Overrides
+/* ------------------------------------------- */
+.btn-default {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
+  color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+  background-color: inherit;
 }
 
 /*
