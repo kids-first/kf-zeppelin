@@ -1,4 +1,4 @@
-# Apache Zeppelin
+# Apache Zeppelin [Kids First]
 
 **Documentation:** [User Guide](https://zeppelin.apache.org/docs/latest/index.html)<br/>
 **Mailing Lists:** [User and Dev mailing list](https://zeppelin.apache.org/community.html)<br/>
