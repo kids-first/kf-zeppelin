@@ -757,10 +757,6 @@ This part should be removed when new version of bootstrap handles this issue.
   opacity: 1;
 }
 
-.bootstrap-dialog.type-primary .modal-header {
-  background: #3071a9;
-}
-
 /* Forms */
 .form-control {
   border-color: var(--color-border-base);
@@ -773,9 +769,23 @@ This part should be removed when new version of bootstrap handles this issue.
   color: var(--color-text-disabled);
 }
 .form-control::-webkit-input-placeholder {
-color: var(--color-text-disabled);
-opacity: 1;
+  color: var(--color-text-disabled);
+  opacity: 1;
 }
 .form-control::-ms-input-placeholder {
   color: var(--color-text-disabled);
+}
+
+/* ------------------------------------------- */
+/* Modal Overrides
+/* ------------------------------------------- */
+.modal-header,
+.bootstrap-dialog-header {
+  background-color: var(--color-layout-body-background) !important;
+  border: none !important;
+}
+.modal-title,
+.bootstrap-dialog-title {
+  color: var(--color-text-title) !important;
+  font-weight: 500 !important;
 }
