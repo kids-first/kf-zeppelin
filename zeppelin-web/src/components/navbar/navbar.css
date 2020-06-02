@@ -15,7 +15,7 @@
 /* ------------------------------------------- */
 /* Vars
 /* ------------------------------------------- */
-root {
+:root {
   --color-text: #515885;
   --color-text-secondary: #7d84a6;
   --color-text-disabled: #a9adc0;
@@ -33,7 +33,6 @@ root {
 
 .navbar-kf {
   background: #fff;
-  color: var(--color-link);
   font-size: 18px;
   border: none;
   box-shadow: 0 3px 6px -4px rgba(81, 88, 133, 0.3),
@@ -46,15 +45,10 @@ root {
   height: 5px;
 }
 
-.navbar-brand.navbar-title {
-  margin-top: -3px;
-  margin-right: 20px;
-}
-
 .navbar-title > span {
   font-family: 'Patua One', cursive;
-  font-size: 25px;
-  color: white;
+  font-size: 24px;
+  margin-right: 24px;
 }
 
 .navbar-menu {
@@ -75,8 +69,14 @@ root {
 }
 
 .navbar-logo {
-  display: inline-block;
-  padding-right: 10px;
+  padding: 5px 16px 5px 16px;
+  height: 50px;
+  line-height: inherit;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+.navbar-logo:hover {
+  transform: scale(1.05);
 }
 
 .navbar-search {
@@ -161,7 +161,7 @@ root {
 }
 
 a.navbar-brand:hover {
-  color: #fff !important;
+  color: var(--color-link-hover);
 }
 
 @media (max-width: 767px) {
