@@ -12,9 +12,23 @@
  * limitations under the License.
  */
 
+ /* ------------------------------------------- */
+ /* Vars
+/* ------------------------------------------- */
+ :root {
+   --color-text: #515885;
+   --color-text-secondary: #7d84a6;
+   --color-text-disabled: #a9adc0;
+   --color-text-title: #2B388F;
+   --color-link: #A6278F;
+   --color-link-hover: #B5469E;
+   --color-layout-body-background: #f4f5f8;
+   --color-item-disabled: var(--color-text-disabled);
+ }
+
 body {
   padding-top: 50px;
-  color: #515885;
+  color: var(--color-text);
   font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
@@ -25,17 +39,17 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: #2B388F;
+  color: var(--color-text-title);
 }
 
 a {
-  color: #A6278F;
+  color: var(--color-link);
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #2B388F;
+  color: var(--color-text-title);
 }
 
 .home {
@@ -705,15 +719,15 @@ This part should be removed when new version of bootstrap handles this issue.
   border-radius: 2px;
 }
 ::placeholder {
-  color: #a9adc0;
+  color: var(--color-text-disabled);
 }
 .form-control::placeholder {
-  color: #a9adc0;
+  color: var(--color-text-disabled);
 }
 .form-control::-webkit-input-placeholder {
-color: #a9adc0;
+color: var(--color-text-disabled);
 opacity: 1;
 }
 .form-control::-ms-input-placeholder {
-  color: #a9adc0;
+  color: var(--color-text-disabled);
 }
