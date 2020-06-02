@@ -59,6 +59,17 @@ body .navbar {
   text-decoration: none;
 }
 
+/* Links */
+a {
+  color: #A6278F;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #2B388F;
+}
+
 /* Css for the Notebook Dropdown */
 
 .expandable ul {
