@@ -281,6 +281,9 @@ body .navbar {
   border-color: transparent;
   font-size: 14px;
 }
+.nav-btn:hover {
+  color: var(--color-link-hover);
+}
 
 .nav-login-btn,
 .nav-login-btn:hover,
@@ -387,6 +390,17 @@ kbd {
   color: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
   background-color: inherit;
+}
+.btn-primary {
+  color: #fff;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
 }
 
 /*
