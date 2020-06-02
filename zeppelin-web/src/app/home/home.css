@@ -14,13 +14,28 @@
 
 body {
   padding-top: 50px;
-  color: #212121;
+  color: #515885;
+  font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 html,
 body {
   height: 100%;
   -ms-overflow-style: scrollbar;
+}
+
+h1, h2, h3, h4 {
+  color: #2B388F;
+}
+
+a {
+  color: #A6278F;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #2B388F;
 }
 
 .home {
@@ -57,17 +72,6 @@ body .navbar {
   margin-left: 2px;
   cursor: pointer;
   text-decoration: none;
-}
-
-/* Links */
-a {
-  color: #A6278F;
-}
-
-a:hover,
-a:active,
-a:focus {
-  color: #2B388F;
 }
 
 /* Css for the Notebook Dropdown */
