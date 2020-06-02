@@ -273,9 +273,9 @@ body .navbar {
 
 .box {
   border-style: solid;
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
+  min-height: 24px;
+  padding: 24px;
+  margin-bottom: 24px;
 }
 
 .box,
@@ -312,19 +312,6 @@ body .navbar {
 .icheck-label {
   position: relative;
   top: 0;
-}
-
-.zeppelin {
-  /* background: url('../assets/images/zepLogo.png') no-repeat right; */
-  /* height: 380px; */
-  /* opacity: 0.2; */
-}
-
-.zeppelin2 {
-  /* background: url('../assets/images/zepLogo.png') no-repeat right; */
-  /* background-position-y: 12px; */
-  height: 380px;
-  opacity: 0.2;
 }
 
 .keys {
