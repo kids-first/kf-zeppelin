@@ -288,13 +288,18 @@ body .navbar {
   box-shadow: none;
 }
 
+.box-welcome {
+  margin-bottom: 2em;
+}
+
+.box-welcome p {
+  max-width: 54em;
+}
+
 .box-heading {
   position: relative;
   max-width: 100%;
-  font-weight: 300;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: middle;
+  font-size: 28px;
   margin: 0 0 15px;
   padding-bottom: 2px;
 }
