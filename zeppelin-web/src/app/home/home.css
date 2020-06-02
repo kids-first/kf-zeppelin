@@ -24,7 +24,8 @@
    --color-link-hover: #B5469E;
    --color-layout-body-background: #f4f5f8;
    --color-item-disabled: var(--color-text-disabled);
-   --color-border: #ced2e4;
+   --color-border-base: #D7D8DB;
+   --color-border-split:#EAEAEC;
    --color-primary: #009BBA;
    --color-primary-hover: #20B1C7;
  }
@@ -102,7 +103,7 @@ body .navbar {
 }
 
 .dropdown-menu {
-  border-color: var(--color-border);
+  border-color: var(--color-border-base);
   border-radius: 2px;
 }
 
@@ -748,7 +749,7 @@ This part should be removed when new version of bootstrap handles this issue.
 
 /* Forms */
 .form-control {
-  border-color: var(--color-border);
+  border-color: var(--color-border-base);
   border-radius: 2px;
 }
 ::placeholder {
