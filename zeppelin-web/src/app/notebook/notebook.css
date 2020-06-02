@@ -158,6 +158,7 @@
   float: left;
   width: auto;
   max-width: 40%;
+  margin-right: 24px;
 }
 
 @media (max-width: 650px) {
@@ -187,8 +188,8 @@
   direction: rtl;
   unicode-bidi: plaintext;
   text-align: left;
-  font-size: 29px;
-  padding-top: 7px;
+  font-size: 24px;
+  padding-top: 12px;
   padding-left: 14px;
 }
 
@@ -344,7 +345,7 @@
 /** required to pin, unpin `noteAction` */
 .noteAction.headroom {
   position: fixed;
-  top: 50px;
+  top: 56px;
   left: 0;
   right: 0;
   transition: all .2s ease-in-out;
