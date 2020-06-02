@@ -24,6 +24,7 @@
    --color-link-hover: #B5469E;
    --color-layout-body-background: #f4f5f8;
    --color-item-disabled: var(--color-text-disabled);
+   --color-border: #ced2e4;
  }
 
 body {
@@ -98,6 +99,11 @@ body .navbar {
   list-style-type: none;
 }
 
+.dropdown-menu {
+  border-color: var(--color-border);
+  border-radius: 2px;
+}
+
 .dropdown-menu .notebook-list-item {
   text-decoration: none;
 }
@@ -107,6 +113,14 @@ body .navbar {
 }
 
 /* bootstrap customization for scrollable dropdown menu */
+.dropdown-menu>li>a {
+  color: var(--color-text);
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: inherit;
+}
 .dropdown-menu > .scrollbar-container > li > a,
 .dropdown-menu .notebook-list-item {
   display: block;
@@ -115,7 +129,7 @@ body .navbar {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #333;
+  color: var(--color-text);
   white-space: nowrap;
 }
 
@@ -715,7 +729,7 @@ This part should be removed when new version of bootstrap handles this issue.
 
 /* Forms */
 .form-control {
-  border-color: #ced2e4;
+  border-color: var(--color-border);
   border-radius: 2px;
 }
 ::placeholder {
