@@ -204,7 +204,7 @@ function WebsocketEventFactory($rootScope, $websocket, $location, baseUrlSrv, ng
       title: 'Cluster Timeout',
       message:
         'Your cluster has been timed out due to inactivity.'
-        + 'Your work have been saved. Click "Continue" to relaunch your cluster.',
+        + ' Your work have been saved. Click "Continue" to relaunch your cluster.',
       buttons: [{
         label: 'Continue',
         action: function(dialogInstance) {
