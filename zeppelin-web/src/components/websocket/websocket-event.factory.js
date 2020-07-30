@@ -202,16 +202,17 @@ function WebsocketEventFactory($rootScope, $websocket, $location, baseUrlSrv, ng
       closeByBackdrop: false,
       closeByKeyboard: false,
       title: 'Cluster Timeout',
-      message: 'Your cluster has been timed out due to inactivity. Your work have been saved. Click "Continue" to relaunch your cluster.',
+      message:
+        'Your cluster has been timed out due to inactivity.'
+        + 'Your work have been saved. Click "Continue" to relaunch your cluster.',
       buttons: [{
         label: 'Continue',
         action: function(dialogInstance) {
-          window.location.href = 'https://portal.kidsfirstdrc.org/variantDb' //FIXME should be in env var to toggle from one env to another
+          window.location.href = 'https://portal.kidsfirstdrc.org/variantDb'; //  FIXME should be in env var to toggle from one env to another
           dialogInstance.close();
         },
       }],
     });
-
   });
   return websocketCalls;
 }
