@@ -1,4 +1,6 @@
-# Apache Zeppelin [Kids First]
+# ***** Deprecated Apache Zeppelin [Kids First]
+
+Move to https://github.com/kids-first/kf-zeppelin-web
 
 **Documentation:** [User Guide](https://zeppelin.apache.org/docs/latest/index.html)<br/>
 **Mailing Lists:** [User and Dev mailing list](https://zeppelin.apache.org/community.html)<br/>
